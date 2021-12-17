@@ -1,0 +1,38 @@
+======================= MACHINE FILE :
+waimea
+belharra
+nazare
+waimea 
+=====================================
+ 
+ 
+======================= COMMANDS USED :
+/net/ens/mercier/PR204/Suivi_Thor/2021-2022/Repositories/pr204-13886/Phase1/bin/dsmexec
+/net/ens/mercier/PR204/Suivi_Thor/2021-2022/Repositories/pr204-13886/Phase1/bin/dsmwrap
+/net/ens/mercier/PR204/Suivi_Thor/2021-2022/Repositories/pr204-13886/Phase1/bin/truc
+=====================================
+ 
+ 
+======================= REGULAR TEST :
+arg[0] : truc
+open: No such file or directory
+Working dir is /net/ens/mercier/PR204/Suivi_Thor/2021-2022/Repositories/pr204-13886/Phase1
+Number of args : 1
+================ Valeur du descripteur : -1
+ 
+=====================================
+ 
+======================= DSMEXEC TEST :
+============================ Essai #1
+Listen socket descriptor 3
+timeout: the monitored command dumped core
+============================ Essai #2
+Listen socket descriptor 3
+timeout: the monitored command dumped core
+=====================================
+ 
+ 
+======================= DATA EXCHANGE TEST :
+Listen socket descriptor 3
+timeout: the monitored command dumped core
+=====================================
